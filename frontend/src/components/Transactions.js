@@ -1,3 +1,5 @@
+import TableGrid from "./TableGrid";
+
 const Transactions = () => {
     return ( 
         <div className="grid grid-cols-1 bg-gray-100 text-gray-700">
@@ -18,10 +20,14 @@ const Transactions = () => {
             </div>
 
             <div className="flex justify-between p-2">
-                <input type="month" name="" id="" />
+                <input type="month" name="" id="" className="h-4 p-2" />
                 <div className="flex">
                    
                 </div>
+            </div>
+
+            <div className="grid grid-cols-1">
+                <TableGrid></TableGrid>
             </div>
 
         </div>
