@@ -1,6 +1,6 @@
 const ScoreCard = () => {
     return ( 
-        <div className="flex justify-evenly m-2 shadow-lg ">
+        <div className="flex justify-evenly m-2 shadow-lg rounded-md ">
             <div className="flex flex-col items-center p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 fill-amber-500">
                     <path d="M11.584 2.376a.75.75 0 01.832 0l9 6a.75.75 0 11-.832 1.248L12 3.901 3.416 9.624a.75.75 0 01-.832-1.248l9-6z" />
@@ -8,7 +8,7 @@ const ScoreCard = () => {
                     <path d="M12 7.875a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
                 </svg>
                 <h4 className="my-1">opening balance</h4>
-                <h4 className=" text-sm font-semibold">400</h4>
+                <h4 className=" text-sm font-semibold">N400</h4>
             </div>
 
             <div className="flex flex-col items-center p-2">

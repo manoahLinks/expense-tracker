@@ -11,17 +11,17 @@ const ExpenseForm = () => {
                 <h4 className="self-end text-purple-800">history</h4>
             </div>
             <form className="flex flex-col m-3 p-3 bg-white rounded-md">
-                <label htmlFor="type">Expense Type</label>
-                <select name="" id="type">
+                <label htmlFor="type" className="text-sm">Expense Type</label>
+                <select name="" id="type" className="my-2">
                     <option>select type</option>
                     <option>Electricity</option>
                     <option>maintenance</option>
                     <option>production</option>
                 </select>
                 <label htmlFor="description">Expense Description</label>
-                <input type="text" id="description" placeholder="Expense description" />
-                <label htmlFor="amount">Amount</label>
-                <input type="number" id="amount" placeholder="Amount" />
+                <input type="text" id="description" placeholder="Expense description" className="my-2" />
+                <label htmlFor="amount" className="text-sm">Amount</label>
+                <input type="number" id="amount" placeholder="Amount" className="my-2" />
                 <input type="button" value="Next" className="p-2 bg-purple-800 text-white font-semibold rounded-lg" />
             </form>
         </div>
