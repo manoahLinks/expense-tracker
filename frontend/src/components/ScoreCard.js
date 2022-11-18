@@ -29,7 +29,7 @@ const ScoreCard = () => {
                     <path d="M2.25 18a.75.75 0 000 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 00-.75-.75H2.25z" />
                 </svg>
                 <h4 className="my-1">Expenditure</h4>
-                <h4 className=" text-sm font-semibold">N140,000</h4>
+                <h4 className="text-sm font-semibold">N140,000</h4>
             </div>
 
         </div>
