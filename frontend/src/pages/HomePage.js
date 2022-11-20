@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
+import ScoreCard from "../components/ScoreCard";
 
 const HomePage = () => {
     return ( 
         <div className="grid grid-cols-1">
             <div className='grid grid-cols-1 md:w-9/12 w-full bg-gray-100'>
-
               <div className='flex m-2 p-2 rounded-full bg-white justify-between items-center'>
                 <div className='flex items-center'>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 text-purple-800">
@@ -16,7 +16,7 @@ const HomePage = () => {
                 </div>
                 <button className='bg-purple-800 text-white px-4 py-1 rounded-full'>fund</button>
               </div>
-
+              <ScoreCard />
               <div className='bg-white rounded flex flex-col m-2 p-2'>
                 <h4 className='font-semibold'>Expense category</h4>
                 <div className='grid grid-cols-4 gap-y-4'>

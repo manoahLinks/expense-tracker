@@ -10,6 +10,7 @@ import Analytics from './pages/Analytics';
 import Checkout from './components/Checkout';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -23,7 +24,7 @@ class App extends Component {
               <Route path={`/transactions`} element={<Transactions></Transactions>}></Route>
               <Route path={`/new`} element={<ExpenseForm></ExpenseForm>}></Route>
               <Route path={`/cards`} element={<Checkout></Checkout>}></Route>
-              <Route path={`/analytics`} element={<Analytics></Analytics>}></Route>
+              <Route path={``} element={<Analytics></Analytics>}></Route>
             </Routes>
             <TaskBar />
           </div>

@@ -1,6 +1,6 @@
 const ExpenseCard = () => {
     return (
-        <div className="flex flex-col m-2 rounded-md shadow-lg">
+        <div className="flex flex-col m-2 rounded-md shadow-lg bg-white">
             <div className="flex justify-between">
                 <div className="flex bg-zinc-100 justify-center w-6/12 items-center">
                     <h4 className="font-semibold text-sm text-purple-800">Balance</h4>
