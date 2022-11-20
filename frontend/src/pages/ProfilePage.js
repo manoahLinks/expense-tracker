@@ -4,7 +4,7 @@ import TableGrid from "../components/TableGrid";
 
 const ProfilePage = () => {
     return ( 
-        <div className="grid grid-cols-1 bg-purple-50">
+        <div className="grid grid-cols-1 bg-purple-50 overflow-scroll">
             <ExpenseCard />
             <ScoreCard />
             <div className="grid grid-cols-1 m-2 p-2 rounded-lg bg-white shadow-md">
