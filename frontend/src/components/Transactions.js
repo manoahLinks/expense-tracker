@@ -20,7 +20,12 @@ const Transactions = () => {
             </div>
 
             <div className="flex justify-between p-2">
-                <input type="month" name="" id="" className="h-4 p-2" />
+                <select name="" id="" className="text-xs border-none bg-purple-100 text-purple-900 rounded-full">
+                    <option value="">Jan</option>
+                    <option value="">feb</option>
+                    <option value="">mar</option>
+                    <option value="">apr</option>
+                </select>
                 <div className="flex">
                    
                 </div>
