@@ -10,7 +10,7 @@ exports.addNewExpense = async (req, res) => {
         res.status(200).json(newExpense)
     }
     catch{
-        res.json({message:"Cannot create new record", error:err})
+        res.json({message:"Cannot create new record", error: err})
     }
 }  
 
@@ -23,7 +23,7 @@ exports.getAllExpenses = async (req, res) =>{
                         res.status(200).json(allExpenses)
                     })
                     .catch((err) => {
-                        res.json({message : 'oOPs... cannot retrieve expense list at the moment', errror: err})
+                        res.json({message : 'oOPs... cannot retrieve expense list at the moment', error:err})
                     })
 }
 
